@@ -1,0 +1,15 @@
+The following CSS code resolves the specificity issue by ensuring the intended styling is applied correctly:
+
+```css
+ul li {
+  color: blue;
+}
+
+/*This selector is removed because it overrides the previous selector and is not needed.
+.container ul li {
+  color: red;
+}
+*/
+```
+
+By removing the conflicting, more specific selector, the general selector correctly styles all list items in the intended manner.
